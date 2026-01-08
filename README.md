@@ -47,3 +47,13 @@ The model is trained offline and saved using Pickle for reuse during inference.
 
 ## Project Structure
 
+placement-score-predictor/
+│
+├── app.py # Backend / prediction logic
+├── placement_model.pkl # Trained ML model
+├── frontend/
+│ ├── index.html # User interface
+│ ├── style.css # Styling
+│ └── script.js # Frontend logic
+├── requirements.txt
+└── README.md
