@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Placement Score Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>🎓 Placement Score Predictor</h1>
+    <p>Evaluate your placement readiness</p>
+<label>CGPA (0–10)</label>
+<input id="cgpa" type="number" min="0" max="10" step="0.1">
+
+<label>Technology Skills (1–10)</label>
+<input id="tech" type="number" min="1" max="10">
+
+<label>Domain Knowledge (1–10)</label>
+<input id="domain" type="number" min="1" max="10">
+
+<label>Internships Completed (0–5)</label>
+<input id="intern" type="number" min="0" max="5">
+
+    <button onclick="predict()">Predict Score</button>
+
+    <div id="result"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
